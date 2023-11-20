@@ -1,0 +1,256 @@
+/* Add your CSS styles here */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+header {
+    background-color: #ecf3f8;
+    color: #fff;
+    padding: 10px;
+    position: static; /* Make the navigation bar non-fixed */
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+   
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the navigation links vertically */
+}
+
+nav a {
+    color: #0c0b0b;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+/* Style for the logo */
+nav img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px; /* Adjust margin for spacing */
+}
+
+.container {
+    max-width: 100%; /* Set the maximum width to 100% */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    text-align: center;
+}
+
+/* Style for the picture section */
+.picture-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.picture-section img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/* Style for the About Voting section */
+.about-voting {
+    background-color: #f7f7f7; /* Set your desired background color */
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about-voting h2 {
+    font-size: 28px; /* Increase the font size for the section title */
+    margin-bottom: 20px;
+    color: #333; /* Set your desired text color */
+}
+
+.about-voting p {
+    font-size: 18px;
+    line-height: 1.5; /* Adjust line height for better readability */
+    color: #666; /* Set your desired text color */
+}
+
+/* Follow These Steps Section */
+.follow-steps {
+    background-color: #b7c9e2;
+    color: #121111;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.follow-steps h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.icon-steps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-step {
+    flex: 1;
+}
+
+.icon-step i {
+    font-size: 36px;
+    color: #333;
+}
+
+.icon-step p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Custom icon styles */
+.icon {
+    width: 36px;
+    height: 36px;
+    background-color: #007ACC; /* Set your desired icon background color */
+    color: #fff; /* Set the icon color to white or your desired color */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+.custom-icon-search::before {
+    content: "\f002"; /* Use Unicode or other symbols for your custom icon */
+}
+
+.custom-icon-check::before {
+    content: "\f00c";
+}
+
+.custom-icon-paper-plane::before {
+    content: "\f1d8";
+}
+
+/* Why You Should Vote Section */
+.why-vote {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.why-vote h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.why-vote p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.why-vote ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why-vote li::before {
+    content: '\2022'; /* Bullet character */
+    color: #333;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.vote-now-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #656161; /* Background color for the footer */
+    color: #ccc; /* Text color in the footer (light grey) */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px; /* Added margin for spacing */
+}
+
+.contact-info,
+.quick-links {
+    flex: 1;
+    text-align: left;
+}
+
+.contact-info h3,
+.quick-links h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info p,
+.quick-links ul {
+    font-size: 14px;
+    margin: 5px 0;
+    
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li {
+    margin: 5px 0;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #ccc; /* Text color (light grey) */
+}
+
+.quick-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 14px;
+    text-align: right;
+}
+
+
+@media (max-width: 800px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+}

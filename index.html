@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- FontAwsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- FontAwsome -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--Fonts CDN-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!--- Custom Css --->
+  <link rel="stylesheet" href="style1.css">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Internal CSS -->
+
+  <style>
+    .slideUpBtn {
+      padding: 12px 24px;
+      background-color: transparent;
+      border: 2px solid hsl(243, 80%, 62%);
+      border-radius: 6px;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.5s cubic-bezier(1, .15, .34, .92)
+    }
+
+    .slideUpBtn span {
+      display: inline-block;
+      transition: inherit;
+      color: hsl(243, 80%, 62%);
+    }
+
+    .slideUpBtn:hover span {
+      opacity: 0;
+      transform: translateY(-100%)
+    }
+
+    .slideUpBtn::before {
+      content: "";
+      background-color: hsl(243, 80%, 62%);
+      ;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      transform: translateY(100%);
+      transition: inherit;
+      width: 100%;
+      transition: transform 0.5s cubic-bezier(1, .15, .34, .92)
+    }
+
+    .slideUpBtn::after {
+      content: 'Vote Now';
+      align-items: center;
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      left: 0;
+      position: absolute;
+      top: 0;
+      transition: inherit;
+      transform: translateY(100%);
+      width: 100%;
+
+    }
+
+    .slideUpBtn:hover::before {
+      transform: translateY(0) scale(3);
+      transition-delay: .025s;
+    }
+
+    .slideUpBtn:hover::after {
+      opacity: 1;
+      color: hsl(222, 100%, 95%);
+      transform: translateY(0);
+    }
+  </style>
+  <!-- End Internal CSS -->
+
+
+  <title>Homepage Voting System</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="images/logo_voting-removebg-preview.png" alt="Logo">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="candidates.html">Candidates</a>
+      <i class="vscode-icons-login"></i>
+
+
+    </nav>
+
+  </header>
+
+  <!------------------  HomePage Section ------------------>
+
+  <section id="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 animate__animated animate__bounceInLeft" style="text-align: center;">
+          <h1>ONLINE VOTING SYSTEM</h1>
+          <p>Online voting systems are software platforms used to securely conduct votes and elections.<br> As a digital
+            platform, they eliminate the need to cast your votes using paper or having to gather in person.</p>
+          <a href="index.php"><button class="magnifyBtn">VOTE NOW</button></a>
+        </div>
+
+        <div class="col-md-6">
+          <img src="images/photo_2023-10-26_23-47-42.jpg" alt="" srcset="" height="400vh " width="70%"
+            class="animate__animated animate__bounceInRight " style="margin-left: 10px; margin-top: 20px;">
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!------------------  Space Section ------------------>
+
+  <section class="space">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="row">
+
+        </div>
+      </div>
+  </section>
+  </div>
+  <!------------------  Candidate Section ------------------>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Online Voting System</h1>
+      </div>
+      <div class="col-md-12" style=" width: 90%; ">
+        <img src="file:///C:/Users/azwa%20wawa/Downloads/10.svg" alt="" srcset="">
+      </div>
+
+
+      <div class="col-md-12">
+        <a href="index.php"><span><button style="margin-top: 20px;" class="slideUpBtn">Vote Now</button></span></a>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <!------------------  About Section ------------------>
+  <section>
+    <div class="container-fluid" style="margin-top: 50px;">
+      <div class="row" style="background: linear-gradient(to right,  #1738ba,rgb(95, 134, 224));" width="100%">
+        <div class="col-md-12"
+          style="background-image: linear-gradient(to right,  #1738ba,rgb(95, 134, 224)); color: white;">
+          <h1
+            style="text-align: center; background-image: linear-gradient(to right,  #1738ba,rgb(95, 134, 224)); color: white;">
+            <br><br> About Voting</h1>
+          <p> About Voting In Beif</p>
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+          <h1 style="color: white; margin-top: 40px;" class=" ">About</h1>
+          <p style="color: white; padding-bottom: 5rem; " class=" ">Voting is a method for a group, such as a meeting or an electorate, in
+            <br>order to make a collective decision or express an opinion usually following discussions, debates or election
+            <br>campaigns. Democracies elect holders of high office by voting. Residents of a place represented by an
+            <br>elected official are called "constituents", and those constituents who cast a ballot for their chosen
+            <br>candidate are called "voters". There are different systems for collecting votes, but while many of the
+            <br>systems used in decision-making can also be used as electoral systems, any which cater for proportional
+            <br>representation can only be used in elections.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="contact-info">
+          <h3>Contact Us</h3>
+          <p>Email: https://www.uptm.edu.my/</p>
+          <p>Phone: +603 92837186 (Marketing)</p>
+          <p>Address: UNIVERSITI POLY-TECH MALAYSIA,
+            Jalan 6/91, Taman Shamelin Perkasa, 56100 Cheras, Kuala Lumpur</p>
+        </div>
+        <div class="quick-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="homepagevoting.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="candidates.html">Candidates</a></li>
+            <li><a href="result.html">Leaderboard</a></li>
+            <li><a href="#">User Guidelines</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2023 UPTM Voting System</p>
+    </div>
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script src="js/jquery-3.2.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

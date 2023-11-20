@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #ecf3f8;
+    color: #fff;
+    padding: 10px;
+    position: static; /* Make the navigation bar non-fixed */
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+   
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the navigation links vertically */
+}
+
+nav a {
+    color: #0c0b0b;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+/* Style for the logo */
+nav img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px; /* Adjust margin for spacing */
+}
+
+.card{
+    margin: 6%;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0 ,1);
+    background-color: white;
+    width: 21.25%;
+    border-radius: 12px;
+    box-shadow: 0px 13px 10px -7 rgba(0, 0, 0, 0.1);
+}
+
+.card-body h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.information-box{
+    background-color: #b7c9e2;
+    border-radius: 12px;
+    width: 100%;
+    padding: 30px;
+    margin: 20px;
+}
+
+.col-md-12{
+    color: #16519E;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #656161; /* Background color for the footer */
+    color: #ccc; /* Text color in the footer (light grey) */
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px; /* Added margin for spacing */
+}
+
+.contact-info, .quick-links {
+    flex: 1;
+    text-align: left;
+}
+
+.contact-info h3, .quick-links h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info p, .quick-links ul {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li {
+    margin: 5px 0;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #ccc; /* Text color (light grey) */
+}
+
+.quick-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 14px;
+    text-align: right;
+}
+
+@media (max-width: 800px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
